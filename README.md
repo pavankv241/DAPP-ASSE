@@ -32,6 +32,25 @@ npm start
 - Set the same `.env` variables in Vercel’s dashboard (Project Settings → Environment Variables).
 - Never commit your `.env` file or private key to git.
 
+## Getting Test Tokens
+
+To receive test tokens in your wallet, you can run the provided transfer script. This will transfer tokens from the deployer's account to your specified address.
+
+### Prerequisites
+- Ensure you have set up your `.env` file with the correct private key and RPC URL as described above.
+- The contracts must be deployed and the deployer account should have a token balance.
+
+### Steps
+1. Open `scripts/transfer.js` and update the `recipient` variable with your wallet address.
+2.  Update the `amount` variable if you want a different number of tokens.
+3. Run the script using Hardhat:
+
+```bash
+npx hardhat run scripts/transfer.js --network sepolia
+```
+
+This will transfer the specified amount of tokens to your address and print a confirmation message in the terminal.
+
 ```
 assessment
 ├─ .DS_Store
@@ -154,5 +173,3 @@ assessment
 │     └─ useWallet.js
 └─ test
    └─ MyToken-Staking.js
-
-```

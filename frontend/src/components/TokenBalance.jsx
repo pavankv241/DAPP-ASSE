@@ -12,4 +12,4 @@ export default function TokenBalance() {
       {balance !== null ? formatUnits(balance, decimals) : "-"}
     </div>
   );
-} 
+}

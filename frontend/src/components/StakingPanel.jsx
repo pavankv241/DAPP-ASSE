@@ -108,4 +108,4 @@ export default function StakingPanel() {
       {error && <div style={{ color: "red" }}>{error}</div>}
     </div>
   );
-} 
+}
