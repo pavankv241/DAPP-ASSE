@@ -51,6 +51,26 @@ npx hardhat run scripts/transfer.js --network sepolia
 
 This will transfer the specified amount of tokens to your address and print a confirmation message in the terminal.
 
+## How to Stake and Unstake Tokens in the Frontend
+
+You can stake and unstake your tokens directly from the web app's interface. Follow these steps:
+
+### Staking Tokens
+1. Connect your wallet using the wallet connect button in the app.
+2. In the Staking section, enter the amount of tokens you want to stake in the input field.
+3. If this is your first time staking or if your allowance is too low, click the **Approve** button to allow the staking contract to use your tokens. Wait for the transaction to confirm.
+4. Once approved, click the **Stake** button. Wait for the transaction to confirm.
+5. You will see a success message and your staked balance will update.
+
+### Unstaking Tokens
+1. In the Staking section, enter the amount of tokens you want to unstake in the "Amount to unstake" input field.
+2. Click the **Unstake** button. Wait for the transaction to confirm.
+3. Your staked balance and wallet balance will update accordingly.
+
+**Note:**
+- Make sure your wallet is connected and you have enough tokens to stake.
+- If you encounter errors, check the error message displayed in the app for more details.
+
 ```
 assessment
 ├─ .DS_Store

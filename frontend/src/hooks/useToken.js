@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ethers } from "ethers";
 
-const MYTOKEN_ADDRESS = "0x83b818AcD17Af6f5dA0a95ee22318F44f1b91CbE";
+const MYTOKEN_ADDRESS = "0x83b818AcD17Af6f5dA0a95ee22318F44f1b91CbE"; // ERC20 STAKE/UNSTAKE
 const STAKING_ADDRESS = "0x581b7246BD787Fc52af30a35dfA3F0FA29d7BcFC";
 const MYTOKEN_ABI = [
   "function balanceOf(address) view returns (uint256)",

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ethers } from "ethers";
 
-const STAKING_ADDRESS = "0x581b7246BD787Fc52af30a35dfA3F0FA29d7BcFC";
+const STAKING_ADDRESS = "0x581b7246BD787Fc52af30a35dfA3F0FA29d7BcFC"; // Contract Address
 const STAKING_ABI = [
   "function stakedBalance(address) view returns (uint256)",
   "function stake(uint256) external",

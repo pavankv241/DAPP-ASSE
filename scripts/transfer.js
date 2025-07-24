@@ -11,4 +11,4 @@ async function main() {
   console.log(`Transferred ${ethers.formatEther(amount)} tokens to ${recipient}`);
 }
 
-main().catch(console.error); 
+main().catch(console.error);
